@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button{
+    background-color: rgb(243 244 246);    
+    border: 1px solid #E3AC1C;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #E3AC1C;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out;
+}
+
+.button:hover{
+    background-color: #E3AC1C;
+    color: rgb(243 244 246);
+}
+
+.liste-header{
+    color:white;
+    transition: color 0.3s ease-out;
+    position: relative;
+}
+
+.liste-header:hover{
+    color: #E3AC1C;
+}
+
+.liste-header::before{
+    content: '';
+    position: absolute;
+    top: -10%;
+    left: -3px;
+    width: 0%;
+    height: 2%;
+    background: #E3AC1C;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.liste-header::after{
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    left: -3px;
+    width: 0%;
+    height: 2%;
+    background: #E3AC1C;
+    transition: 0.5s;
+    z-index: -1;
+
+}
+
+.liste-header:hover::before, .liste-header:hover::after{
+    width: 108%;
+}
+
+.img-projet{
+    height: 400px;
+    width: 400px;
+    filter: blur(3px);
+    transition: all 0.2s ease-in-out;
+}
+
+.container-projet:hover .img-projet{
+    filter: blur(0);
+}
+
+.container-projet{
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem; 
+    margin:3rem;
+    height: 24rem;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="w-screen h-screen">
+        <header class="w-full m-0 bg-neutral-800 px-8 py-12 shadow-2xl fixed top-0 left-0 right-0" id="header">
+            <div class="flex flex-row justify-between" id="nav">
+                <div id="header--logo" onclick="goTo(acceuil)">
+                    <svg width="176" height="35" viewBox="0 0 176 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.64 2.32H9.448C11.176 2.32 12.8 2.552 14.32 3.016C15.84 3.48 17.072 4.264 18.016 5.368C18.96 6.472 19.432 8.008 19.432 9.976C19.432 11.304 19.168 12.512 18.64 13.6C18.128 14.672 17.488 15.544 16.72 16.216C15.952 16.888 15.192 17.288 14.44 17.416C15.048 17.464 15.72 17.656 16.456 17.992C17.208 18.328 17.92 18.808 18.592 19.432C19.28 20.056 19.84 20.84 20.272 21.784C20.72 22.712 20.944 23.816 20.944 25.096C20.944 26.824 20.592 28.36 19.888 29.704C19.184 31.048 18.112 32.104 16.672 32.872C15.248 33.624 13.44 34 11.248 34H0.64V2.32ZM4.72 30.568H10.84C12.36 30.568 13.536 30.304 14.368 29.776C15.216 29.232 15.808 28.528 16.144 27.664C16.496 26.8 16.672 25.88 16.672 24.904C16.672 23.288 16.144 21.984 15.088 20.992C14.032 20 12.504 19.504 10.504 19.504H4.72V30.568ZM4.72 16.144H10.024C11.24 16.144 12.24 15.88 13.024 15.352C13.808 14.808 14.392 14.12 14.776 13.288C15.16 12.44 15.352 11.568 15.352 10.672C15.352 8.832 14.808 7.552 13.72 6.832C12.648 6.112 11.208 5.752 9.4 5.752H4.72V16.144ZM41.9069 34V30.16C41.7789 30.56 41.4029 31.112 40.7789 31.816C40.1709 32.52 39.3309 33.16 38.2589 33.736C37.2029 34.296 35.9549 34.576 34.5149 34.576C32.6909 34.576 31.0349 34.144 29.5469 33.28C28.0749 32.416 26.8989 31.208 26.0189 29.656C25.1549 28.088 24.7229 26.256 24.7229 24.16C24.7229 22.064 25.1549 20.24 26.0189 18.688C26.8989 17.12 28.0749 15.904 29.5469 15.04C31.0349 14.16 32.6909 13.72 34.5149 13.72C35.9389 13.72 37.1709 13.976 38.2109 14.488C39.2669 15 40.1069 15.592 40.7309 16.264C41.3709 16.936 41.7469 17.512 41.8589 17.992V14.296H45.9869V34H41.9069ZM28.8509 24.16C28.8509 25.584 29.1629 26.816 29.7869 27.856C30.4109 28.896 31.2189 29.704 32.2109 30.28C33.2189 30.84 34.2909 31.12 35.4269 31.12C36.6429 31.12 37.7309 30.832 38.6909 30.256C39.6509 29.68 40.4109 28.872 40.9709 27.832C41.5309 26.776 41.8109 25.552 41.8109 24.16C41.8109 22.768 41.5309 21.552 40.9709 20.512C40.4109 19.456 39.6509 18.64 38.6909 18.064C37.7309 17.472 36.6429 17.176 35.4269 17.176C34.2909 17.176 33.2189 17.464 32.2109 18.04C31.2189 18.616 30.4109 19.424 29.7869 20.464C29.1629 21.504 28.8509 22.736 28.8509 24.16ZM60.2549 34.576C58.4469 34.576 56.8229 34.144 55.3829 33.28C53.9589 32.416 52.8309 31.208 51.9989 29.656C51.1829 28.088 50.7749 26.256 50.7749 24.16C50.7749 22.064 51.1829 20.24 51.9989 18.688C52.8309 17.12 53.9589 15.904 55.3829 15.04C56.8229 14.16 58.4469 13.72 60.2549 13.72C61.7109 13.72 62.9909 13.976 64.0949 14.488C65.1989 14.984 66.0789 15.568 66.7349 16.24C67.3909 16.912 67.7669 17.496 67.8629 17.992V0.975999H72.0629V34H67.9349V30.16C67.7589 30.704 67.3189 31.32 66.6149 32.008C65.9269 32.696 65.0389 33.296 63.9509 33.808C62.8629 34.32 61.6309 34.576 60.2549 34.576ZM61.2149 31.12C62.4309 31.12 63.5429 30.832 64.5509 30.256C65.5589 29.68 66.3589 28.872 66.9509 27.832C67.5589 26.776 67.8629 25.552 67.8629 24.16C67.8629 22.768 67.5589 21.552 66.9509 20.512C66.3589 19.456 65.5589 18.64 64.5509 18.064C63.5429 17.472 62.4309 17.176 61.2149 17.176C60.0949 17.176 59.0549 17.464 58.0949 18.04C57.1349 18.616 56.3589 19.424 55.7669 20.464C55.1909 21.504 54.9029 22.736 54.9029 24.16C54.9029 25.584 55.1909 26.816 55.7669 27.856C56.3589 28.896 57.1349 29.704 58.0949 30.28C59.0549 30.84 60.0949 31.12 61.2149 31.12ZM85.8588 34.576C83.8268 34.576 82.0188 34.12 80.4348 33.208C78.8668 32.296 77.6348 31.064 76.7388 29.512C75.8428 27.944 75.3948 26.176 75.3948 24.208C75.3948 22.24 75.8428 20.464 76.7388 18.88C77.6348 17.296 78.8668 16.04 80.4348 15.112C82.0188 14.184 83.8268 13.72 85.8588 13.72C87.8748 13.72 89.6588 14.184 91.2108 15.112C92.7788 16.04 94.0028 17.296 94.8828 18.88C95.7628 20.464 96.2028 22.24 96.2028 24.208C96.2028 26.176 95.7628 27.944 94.8828 29.512C94.0028 31.064 92.7788 32.296 91.2108 33.208C89.6588 34.12 87.8748 34.576 85.8588 34.576ZM85.8588 31C87.1388 31 88.2508 30.704 89.1948 30.112C90.1548 29.52 90.8988 28.712 91.4268 27.688C91.9548 26.648 92.2188 25.48 92.2188 24.184C92.2188 22.888 91.9548 21.72 91.4268 20.68C90.8988 19.64 90.1548 18.816 89.1948 18.208C88.2508 17.6 87.1388 17.296 85.8588 17.296C84.5628 17.296 83.4348 17.6 82.4748 18.208C81.5148 18.816 80.7628 19.64 80.2188 20.68C79.6908 21.72 79.4268 22.888 79.4268 24.184C79.4268 25.48 79.6908 26.648 80.2188 27.688C80.7628 28.712 81.5148 29.52 82.4748 30.112C83.4348 30.704 84.5628 31 85.8588 31ZM105.177 34H100.977V0.975999H105.177V34Z" fill="white"/>
+                        <path d="M111.64 2.32H115.744V30.28H128.2V34H111.64V2.32ZM136.12 25C136.136 26.184 136.392 27.264 136.888 28.24C137.384 29.216 138.12 29.992 139.096 30.568C140.088 31.144 141.304 31.432 142.744 31.432C143.96 31.432 144.992 31.256 145.84 30.904C146.704 30.536 147.408 30.104 147.952 29.608C148.496 29.096 148.888 28.64 149.128 28.24L151.168 30.76C150.64 31.528 149.992 32.2 149.224 32.776C148.472 33.352 147.552 33.792 146.464 34.096C145.376 34.416 144.048 34.576 142.48 34.576C140.368 34.576 138.536 34.128 136.984 33.232C135.448 32.32 134.264 31.064 133.432 29.464C132.6 27.848 132.184 26 132.184 23.92C132.184 22 132.576 20.272 133.36 18.736C134.144 17.184 135.28 15.96 136.768 15.064C138.272 14.168 140.08 13.72 142.192 13.72C144.128 13.72 145.808 14.128 147.232 14.944C148.672 15.744 149.784 16.88 150.568 18.352C151.368 19.824 151.768 21.584 151.768 23.632C151.768 23.76 151.76 23.992 151.744 24.328C151.728 24.648 151.712 24.872 151.696 25H136.12ZM147.784 21.856C147.768 21.2 147.576 20.48 147.208 19.696C146.856 18.912 146.28 18.24 145.48 17.68C144.68 17.12 143.6 16.84 142.24 16.84C140.832 16.84 139.696 17.112 138.832 17.656C137.984 18.2 137.36 18.864 136.96 19.648C136.56 20.416 136.328 21.152 136.264 21.856H147.784ZM165.499 34.576C163.467 34.576 161.659 34.12 160.075 33.208C158.507 32.296 157.275 31.064 156.379 29.512C155.483 27.944 155.035 26.176 155.035 24.208C155.035 22.24 155.483 20.464 156.379 18.88C157.275 17.296 158.507 16.04 160.075 15.112C161.659 14.184 163.467 13.72 165.499 13.72C167.515 13.72 169.299 14.184 170.851 15.112C172.419 16.04 173.643 17.296 174.523 18.88C175.403 20.464 175.843 22.24 175.843 24.208C175.843 26.176 175.403 27.944 174.523 29.512C173.643 31.064 172.419 32.296 170.851 33.208C169.299 34.12 167.515 34.576 165.499 34.576ZM165.499 31C166.779 31 167.891 30.704 168.835 30.112C169.795 29.52 170.539 28.712 171.067 27.688C171.595 26.648 171.859 25.48 171.859 24.184C171.859 22.888 171.595 21.72 171.067 20.68C170.539 19.64 169.795 18.816 168.835 18.208C167.891 17.6 166.779 17.296 165.499 17.296C164.203 17.296 163.075 17.6 162.115 18.208C161.155 18.816 160.403 19.64 159.859 20.68C159.331 21.72 159.067 22.888 159.067 24.184C159.067 25.48 159.331 26.648 159.859 27.688C160.403 28.712 161.155 29.52 162.115 30.112C163.075 30.704 164.203 31 165.499 31Z" fill="#E3AC1C"/>
+                    </svg>                                                          
+                </div>
+                <div>
+                    <ul class="text-white text-xl flex flex-row justify-evenly" id="menu">
+                        <li class="liste-header" onclick="goTo(description)">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline-block">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Zm6-10.125a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0Zm1.294 6.336a6.721 6.721 0 0 1-3.17.789 6.721 6.721 0 0 1-3.168-.789 3.376 3.376 0 0 1 6.338 0Z" />
+                            </svg>
+                            CV
+                        </li>
+                        <li class="liste-header" onclick="goTo(projets)">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline-block">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
+                            </svg>
+                            Projets
+                        </li>
+                        <li class="liste-header" onclick="goTo(contact)">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline-block">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
+                            </svg>
+                            Contact
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div id="header-content" class="text-white w-full m-0 bg-neutral-800 mt-32 px-8 py-12 shadow-2xl">
+            <h1 class="text-4xl mx-12">Portfolio</h1>
+            <p class="text-2xl text-gray-400 mx-12">Etudiant en informatique passionné par le developpement <span>web !</span></p>
+        </div>
+        <div class="bg-background-white w-full h-3/6 flex flex-col justify-center items-center relative">
+            <div class="p-12 bg-white rounded-xl shadow-xl border flex flex-col justify-around text-xl">
+                <h1 class="border text-center mb-4 py-2 border-orange-1">Bienvenue sur mon portfolio !</h1>
+                <p>Je m'appel léo et je suis actuellement en 2eme année de BUT informatique  l'IUT de bordeaux.</p>
+                <p>Étant passioné par le développement web, je suis actuellement  la recherche d'un stage de 8 à 10 semaines  compté du 8 avril prochain !</p>
+                <p>N'hesitez pas à visiter entièrement ce site pour en apprendre plus sur moi !</p>
+            </div>
+        </div>
+        <div class="w-full flex flex-row justify-center items-center">
+            <div class="button hover:shadow-xl" onclick="goTo(description)">
+                En savoir plus !
+            </div>
+        </div>
+    </section>
+    <section class="w-screen h-screen relative">
+        <div class="w-full h-full flex flex-col justify-start items-center relative">
+            <div class="w-11/12 h-4/5 mt-40 bg-neutral-800 rounded-xl shadow-xl ">
+            </div>
+        </div>
+    </section>
+    <section class="w-screen relative bg-neutral-800" id="projets">
+        <div class="w-full h-full flex flex-col justify-start items-center relative mb-8">
+            <div class="w-11/12 h-4/5 mt-36 p-8 bg-background-white rounded-xl shadow-xl flex flex-row flex-wrap justify-center items-center" id="liste-projets">
+                <div class="container-projet shadow-xl border-2 border-orange-1">
+                    <a href="pdf/flixNet.pdf" download="assets/pdf/flixNet.pdf">
+                    <img src="flixNet.png" alt="biosphere7" class="object-cover img-projet">
+                    <div class="w-100% h-1/6 absolute inset-x-0 bottom-0 w-full flex items-center justify-center bg-white py-2">
+                        <div class="button hover:shadow-xl">
+                            En savoir plus !
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="container-projet shadow-xl border-2 border-orange-1">
+                    <img src="tableau_associatif.png" alt="biosphere7" class="object-cover img-projet">
+                    <div class="w-100% h-1/6 absolute inset-x-0 bottom-0 w-full flex items-center justify-center bg-white py-2">
+                        <div class="button hover:shadow-xl">
+                            En savoir plus !
+                        </div>
+                    </div>
+                </div>
+                <div class="container-projet shadow-xl border-2 border-orange-1">
+                    <img src="chiffrement.jpg" alt="biosphere7" class="object-cover img-projet">
+                    <div class="w-100% h-1/6 absolute inset-x-0 bottom-0 w-full flex items-center justify-center bg-white py-2">
+                        <div class="button hover:shadow-xl">
+                            En savoir plus !
+                        </div>
+                    </div>
+                </div>
+                <div class="container-projet shadow-xl border-2 border-orange-1">
+                    <img src="Biosphere7.PNG" alt="biosphere7" class="object-cover img-projet">
+                    <div class="w-100% h-1/6 absolute inset-x-0 bottom-0 w-full flex items-center justify-center bg-white py-2">
+                        <div class="button hover:shadow-xl">
+                            En savoir plus !
+                        </div>
+                    </div>
+                </div>
+                <div class="container-projet shadow-xl border-2 border-orange-1">
+                    <img src="baseDeDonnée.PNG" alt="biosphere7" class="object-cover img-projet">
+                    <div class="w-100% h-1/6 absolute inset-x-0 bottom-0 w-full flex items-center justify-center bg-white py-2">
+                        <div class="button hover:shadow-xl">
+                            En savoir plus !
+                        </div>
+                    </div>
+                </div>
+                <div class="container-projet shadow-xl border-2 border-orange-1">
+                    <img src="EnvironnementExterne.png" alt="biosphere7" class="object-cover img-projet">
+                    <div class="w-100% h-1/6 absolute inset-x-0 bottom-0 w-full flex items-center justify-center bg-white py-2">
+                        <div class="button hover:shadow-xl">
+                            En savoir plus !
+                        </div>
+                    </div>
+                </div>
+                <div class="container-projet shadow-xl border-2 border-orange-1">
+                    <img src="odomo.PNG" alt="biosphere7" class="object-cover img-projet">
+                    <div class="w-100% h-1/6 absolute inset-x-0 bottom-0 w-full flex items-center justify-center bg-white py-2">
+                        <div class="button hover:shadow-xl">
+                            En savoir plus !
+                        </div>
+                    </div>
+                </div>
+                <div class="container-projet shadow-xl border-2 border-orange-1">
+                    <img src="Site_Web.png" alt="biosphere7" class="object-cover img-projet">
+                    <div class="w-100% h-1/6 absolute inset-x-0 bottom-0 w-full flex items-center justify-center bg-white py-2">
+                        <div class="button hover:shadow-xl">
+                            En savoir plus !
+                        </div>
+                    </div>
+                </div>
+                <div class="container-projet shadow-xl border-2 border-orange-1">
+                    <img src="vm.png" alt="biosphere7" class="object-cover img-projet">
+                    <div class="w-100% h-1/6 absolute inset-x-0 bottom-0 w-full flex items-center justify-center bg-white py-2">
+                        <div class="button hover:shadow-xl">
+                            En savoir plus !
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w-screen h-screen relative">
+        <div class="w-full h-full flex flex-col justify-start items-center relative">
+            <div class="w-11/12 h-4/5 mt-40 bg-neutral-800 rounded-xl shadow-xl p-8">
+                <h1 class="text-4xl text-orange-1 text-center">Me contacter</h1>
+                <div class="text-white text-xl mt-24 ml-24">
+                    <p>Vous pouvez me contacter a tout moment via ces differents reseaux : </p>
+                    <div class="m-24" >
+                        <div class="my-4">
+                            Github : <a href="https://github.com/badolleo">https://github.com/badolleo</a>
+                        </div>
+                        <div class="my-4">
+                            Gmail : <a href="mailto:badolleo@gmail.com">badolleo@gmail.com</a>
+                        </div>
+                        <div class="my-4">
+                            Linkedin : <a href="https://www.linkedin.com/in/leo-badol/">Léo Badol</a>
+                        </div>
+                        <div class="my-4">
+                            Telephone : 07 82 79 26 68
+                        </div>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
