@@ -1,0 +1,43 @@
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+#menu li{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    color: #E3AC1C;
+}
+
+body{
+    background-color: rgb(243 244 246);
+}
+
+section{
+    margin: 0;
+    overflow: hidden;
+}
+
+header{
+    transition: all 0.3s ease-out;
+    z-index: 9999;
+}
+
+section{
+    margin: 0;
+    overflow: hidden;
+}
+
+.header-reduce{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+a{
+    text-decoration: underline #E3AC1C;
+}
